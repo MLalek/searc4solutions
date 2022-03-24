@@ -6,12 +6,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
 import java.util.concurrent.TimeUnit;
 
 //WE NEED DRIVER CAUSE WE WANT TO HAVE A SINGLE driver INSTANCE
 //We are making singleton design pattern
 public class Driver {
-
 
     private Driver(){
         //We make it private because we do not want to access directly to the Driver instance but

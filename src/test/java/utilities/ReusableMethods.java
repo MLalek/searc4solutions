@@ -1,6 +1,7 @@
 package utilities;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,22 +14,40 @@ public class ReusableMethods {
         actions.moveToElement(element).perform();
     }
 
-    public static void scrollIntoView(WebElement element) {
-        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView({block: \"center\",inline: \"center\",behavior: \"smooth\"});", element);
-    }
-
     public static void waitForStaleElementVisibility(WebElement element) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 20);
-        boolean cevir = true;
-        while (cevir) {
+        boolean notFound = true;
+        while (notFound) {
             try {
                 ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
                 wait.until(ExpectedConditions.visibilityOf(element));
-                element.click();
-                cevir = false;
+                notFound = false;
             } catch (StaleElementReferenceException e) {
-                cevir = true;
+                notFound = true;
             }
         }
     }
+
+    public static boolean isVisible(WebElement element) {
+        try {
+            waitForStaleElementVisibility(element);
+            return element.isDisplayed();
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+
+    public static void clickWithJS(WebElement element) {
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
+    }
+
+    public static void wait(int secs) {
+        try {
+            Thread.sleep(1000 * secs);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
