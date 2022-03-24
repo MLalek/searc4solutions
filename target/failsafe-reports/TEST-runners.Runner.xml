@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="runners.Runner" time="7.004" tests="15" errors="15" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Mehmet\IdeaProjects\serch4solutions\target\test-classes;C:\Users\Mehmet\IdeaProjects\serch4solutions\target\serch4solutions-1.0-SNAPSHOT.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Mehmet\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mehmet\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mehmet\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mehmet\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mehmet\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mehmet\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mehmet\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mehmet\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mehmet\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Mehmet\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Mehmet\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Mehmet\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Mehmet\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Mehmet\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\Mehmet\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Mehmet\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Mehmet\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Mehmet\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Mehmet\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Mehmet\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Mehmet\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Mehmet\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Mehmet\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\Mehmet\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Mehmet\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Mehmet\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Mehmet\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Mehmet\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Mehmet\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\Mehmet\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Mehmet\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mehmet\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mehmet\AppData\Local\Temp\surefire1013495835024717341\surefirebooter12539520793815496206.jar C:\Users\Mehmet\AppData\Local\Temp\surefire1013495835024717341 2022-03-23T12-31-04_210-jvmRun1 surefire4248684027496066117tmp surefire_010417294886464696012tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Mehmet\IdeaProjects\serch4solutions\target\test-classes;C:\Users\Mehmet\IdeaProjects\serch4solutions\target\serch4solutions-1.0-SNAPSHOT.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Mehmet\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Mehmet\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mehmet\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mehmet\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mehmet\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mehmet\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mehmet\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mehmet\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mehmet\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mehmet\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Mehmet\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Mehmet\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Mehmet\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Mehmet\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Mehmet\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\Mehmet\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Mehmet\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Mehmet\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Mehmet\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Mehmet\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Mehmet\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Mehmet\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Mehmet\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Mehmet\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\Mehmet\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\Mehmet\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Mehmet\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Mehmet\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Mehmet\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Mehmet\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Mehmet\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Mehmet\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\Mehmet\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Mehmet\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mehmet\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mehmet"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Mehmet\IdeaProjects\serch4solutions"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mehmet\AppData\Local\Temp\surefire1013495835024717341\surefirebooter12539520793815496206.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="Mehmet"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Mehmet\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mehmet\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\Mehmet\IdeaProjects\serch4solutions"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\nodejs\;C:\Users\Mehmet\AppData\Local\Android\Sdk\platform-tools;C:\Users\Mehmet\AppData\Local\Microsoft\WindowsApps;C:\Users\Mehmet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mehmet\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files\heroku\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Mehmet\AppData\Roaming\npm;C:\adb;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\Mehmet\AppData\Local\Microsoft\WindowsApps;C:\Users\Mehmet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mehmet\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files\heroku\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Mehmet\AppData\Roaming\npm;C:\Users\Mehmet\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="TC01 Apply for cloud eng position WITHOUT NAME Naam is missing required subfields: First Name" classname="US001 Solliciteren bij search4solutions" time="2.258">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I am on the {string} job application form&quot;)&#10;public void i_am_on_the_job_application_form(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I want to apply for Cloud Engineer position WITHOUT NAME&quot;)&#10;public void i_want_to_apply_for_cloud_engineer_position_without_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;I send following attributes to apply for the Cloud Engineer position:&quot;)&#10;public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I should see {string} on the page&quot;)&#10;public void i_should_see_on_the_page(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I am on the {string} job application form")
+public void i_am_on_the_job_application_form(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I want to apply for Cloud Engineer position WITHOUT NAME")
+public void i_want_to_apply_for_cloud_engineer_position_without_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I send following attributes to apply for the Cloud Engineer position:")
+public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see {string} on the page")
+public void i_should_see_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC01 Apply for cloud eng position WITHOUT NAME Naam is missing required subfields: First Name &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:30&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                                                                  &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI am on the 'Cloud Engineer' job application form&amp#27;[0m                                                         &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI want to apply for Cloud Engineer position WITHOUT NAME&amp#27;[0m                                                  &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI send following attributes to apply for the Cloud Engineer position:&amp#27;[0m                                    &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see 'Naam is missing required subfields: First Name' on the page&amp#27;[0m                                &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                                                                &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                                                        &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form first name &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m                                                                     &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@sade.nl"&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m                                                     &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormTelefoonnummer(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser send the filled form&amp#27;[0m                                                                                 &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userSendTheFilledForm()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverify that the form is sent&amp#27;[0m                                                                             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.verify_that_the_form_is_sent()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC01 Apply for cloud eng position WITH INVALID NAME - /* Naam: First Name is not valid." classname="US001 Solliciteren bij search4solutions" time="0.271">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I am on the {string} job application form&quot;)&#10;public void i_am_on_the_job_application_form(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I want to apply for Cloud Engineer position WITH INVALID NAME - \\/*&quot;)&#10;public void i_want_to_apply_for_cloud_engineer_position_with_invalid_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;I send following attributes to apply for the Cloud Engineer position:&quot;)&#10;public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I should see {string} on the page&quot;)&#10;public void i_should_see_on_the_page(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I am on the {string} job application form")
+public void i_am_on_the_job_application_form(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I want to apply for Cloud Engineer position WITH INVALID NAME - \\/*")
+public void i_want_to_apply_for_cloud_engineer_position_with_invalid_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I send following attributes to apply for the Cloud Engineer position:")
+public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see {string} on the page")
+public void i_should_see_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC01 Apply for cloud eng position WITH INVALID NAME - /* Naam: First Name is not valid. &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:31&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                                                            &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI am on the 'Cloud Engineer' job application form&amp#27;[0m                                                   &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI want to apply for Cloud Engineer position WITH INVALID NAME - /*&amp#27;[0m                                  &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI send following attributes to apply for the Cloud Engineer position:&amp#27;[0m                              &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see 'Naam: First Name is not valid.' on the page&amp#27;[0m                                          &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                                                          &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"/*"&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@sade.nl"&amp#27;[0m                                                       &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"abc"&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormTelefoonnummer(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser send the filled form&amp#27;[0m                                                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userSendTheFilledForm()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverify that the form is sent&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.SolliciterenStepdef.verify_that_the_form_is_sent()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC01 Apply for cloud eng position WITH INVALID NAME - a Naam: First Name is not valid." classname="US001 Solliciteren bij search4solutions" time="0.152">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I am on the {string} job application form&quot;)&#10;public void i_am_on_the_job_application_form(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I want to apply for Cloud Engineer position WITH INVALID NAME - a&quot;)&#10;public void i_want_to_apply_for_cloud_engineer_position_with_invalid_name_a() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;I send following attributes to apply for the Cloud Engineer position:&quot;)&#10;public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I should see {string} on the page&quot;)&#10;public void i_should_see_on_the_page(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I am on the {string} job application form")
+public void i_am_on_the_job_application_form(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I want to apply for Cloud Engineer position WITH INVALID NAME - a")
+public void i_want_to_apply_for_cloud_engineer_position_with_invalid_name_a() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I send following attributes to apply for the Cloud Engineer position:")
+public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see {string} on the page")
+public void i_should_see_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC01 Apply for cloud eng position WITH INVALID NAME - a Naam: First Name is not valid. &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:32&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                                                           &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI am on the 'Cloud Engineer' job application form&amp#27;[0m                                                  &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI want to apply for Cloud Engineer position WITH INVALID NAME - a&amp#27;[0m                                  &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI send following attributes to apply for the Cloud Engineer position:&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see 'Naam: First Name is not valid.' on the page&amp#27;[0m                                         &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"a"&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m                                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@sade.nl"&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"abc"&amp#27;[0m                                                       &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormTelefoonnummer(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser send the filled form&amp#27;[0m                                                                          &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userSendTheFilledForm()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverify that the form is sent&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.SolliciterenStepdef.verify_that_the_form_is_sent()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC01 Apply for cloud eng position WITHOUT E-MAIL E-mail is required." classname="US001 Solliciteren bij search4solutions" time="0.201">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I am on the {string} job application form&quot;)&#10;public void i_am_on_the_job_application_form(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I want to apply for Cloud Engineer position WITHOUT E-MAIL&quot;)&#10;public void i_want_to_apply_for_cloud_engineer_position_without_e_mail() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;I send following attributes to apply for the Cloud Engineer position:&quot;)&#10;public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I should see {string} on the page&quot;)&#10;public void i_should_see_on_the_page(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I am on the {string} job application form")
+public void i_am_on_the_job_application_form(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I want to apply for Cloud Engineer position WITHOUT E-MAIL")
+public void i_want_to_apply_for_cloud_engineer_position_without_e_mail() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I send following attributes to apply for the Cloud Engineer position:")
+public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see {string} on the page")
+public void i_should_see_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC01 Apply for cloud eng position WITHOUT E-MAIL E-mail is required. &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:33&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                                         &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI am on the 'Cloud Engineer' job application form&amp#27;[0m                                &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI want to apply for Cloud Engineer position WITHOUT E-MAIL&amp#27;[0m                       &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI send following attributes to apply for the Cloud Engineer position:&amp#27;[0m           &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see 'E-mail is required.' on the page&amp#27;[0m                                  &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                                       &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m                                                &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"abc"&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormTelefoonnummer(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser send the filled form&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userSendTheFilledForm()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverify that the form is sent&amp#27;[0m                                                    &amp#27;[90m# stepdefinitions.SolliciterenStepdef.verify_that_the_form_is_sent()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC01 Apply for cloud eng position WIT ALL REQUIRED FIELDS Dankjewel voor je sollicitatie!" classname="US001 Solliciteren bij search4solutions" time="0.246">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I am on the {string} job application form&quot;)&#10;public void i_am_on_the_job_application_form(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;I want to apply for Cloud Engineer position WIT ALL REQUIRED FIELDS&quot;)&#10;public void i_want_to_apply_for_cloud_engineer_position_wit_all_required_fields() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;I send following attributes to apply for the Cloud Engineer position:&quot;)&#10;public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I should see {string} on the page&quot;)&#10;public void i_should_see_on_the_page(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I am on the {string} job application form")
+public void i_am_on_the_job_application_form(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I want to apply for Cloud Engineer position WIT ALL REQUIRED FIELDS")
+public void i_want_to_apply_for_cloud_engineer_position_wit_all_required_fields() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I send following attributes to apply for the Cloud Engineer position:")
+public void i_send_following_attributes_to_apply_for_the_cloud_engineer_position(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see {string} on the page")
+public void i_should_see_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC01 Apply for cloud eng position WIT ALL REQUIRED FIELDS Dankjewel voor je sollicitatie! &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:34&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                                                              &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI am on the 'Cloud Engineer' job application form&amp#27;[0m                                                     &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI want to apply for Cloud Engineer position WIT ALL REQUIRED FIELDS&amp#27;[0m                                   &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI send following attributes to apply for the Cloud Engineer position:&amp#27;[0m                                &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see 'Dankjewel voor je sollicitatie!' on the page&amp#27;[0m                                           &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                                                            &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@sade.nl"&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"abc"&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormTelefoonnummer(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser send the filled form&amp#27;[0m                                                                             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userSendTheFilledForm()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverify that the form is sent&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.SolliciterenStepdef.verify_that_the_form_is_sent()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #1" classname="US001 Solliciteren bij search4solutions" time="0.098">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:55&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m                  &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemosade.nl"&amp#27;[0m          &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #2" classname="US001 Solliciteren bij search4solutions" time="0.113">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:56&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m                 &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@.nl"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #3" classname="US001 Solliciteren bij search4solutions" time="0.102">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:57&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"/*"&amp#27;[0m               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"@sade.nl"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #4" classname="US001 Solliciteren bij search4solutions" time="0.098">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:58&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"!"&amp#27;[0m                &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"`"&amp#27;[0m                 &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@sadenl"&amp#27;[0m          &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #5" classname="US001 Solliciteren bij search4solutions" time="0.222">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:59&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@sade"&amp#27;[0m            &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #6" classname="US001 Solliciteren bij search4solutions" time="0.212">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:60&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@sade."&amp#27;[0m           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #7" classname="US001 Solliciteren bij search4solutions" time="0.098">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:61&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"n@n@s.nl"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #8" classname="US001 Solliciteren bij search4solutions" time="0.076">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:62&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"@nemo@sade.nl"&amp#27;[0m        &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #9" classname="US001 Solliciteren bij search4solutions" time="0.138">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:63&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nn@s..nl"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC02 Verifieren voor sollicitatie form -Negative #10" classname="US001 Solliciteren bij search4solutions" time="0.126">
+    <error message="The step &apos;I am on the search4solutions home page&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am on the search4solutions home page&quot;)&#10;public void i_am_on_the_search4solutions_home_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user gets the result of the application&quot;)&#10;public void user_gets_the_result_of_the_application() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the search4solutions home page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the search4solutions home page")
+public void i_am_on_the_search4solutions_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user gets the result of the application")
+public void user_gets_the_result_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@smoke @sollicitatieForm
+Scenario Outline: TC02 Verifieren voor sollicitatie form -Negative         &amp#27;[90m# src/test/resources/features/US001 Solliciteren bij search4solutions.feature:64&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am on the search4solutions home page&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser gets the result of the application&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser hover over Werken bij on the menu&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_hover_over_werken_bij_on_the_menu()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser choose Cloud Engineer&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.SolliciterenStepdef.user_choose_cloud_engineer()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click to button Solliciteren&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userClickToButtonSolliciteren()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nemo"&amp#27;[0m             &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidFirstName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sade"&amp#27;[0m              &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidLastName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid e-mail &amp#27;[0m&amp#27;[36m&amp#27;[1m"nemo@sade.n"&amp#27;[0m          &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidEMail(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser fills out the form with not valid Telefoonnummer &amp#27;[0m&amp#27;[36m&amp#27;[1m"+31612345678"&amp#27;[0m &amp#27;[90m# stepdefinitions.SolliciterenStepdef.userFillsOutTheFormWithNotValidTelefoonnummer(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="15" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="15" time="1.588">
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC01 Apply for cloud eng position WITHOUT NAME Naam is missing required subfields: First Name" time="0.296">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+And I am on the 'Cloud Engineer' job application form.......................skipped
+And I want to apply for Cloud Engineer position WITHOUT NAME................skipped
+When I send following attributes to apply for the Cloud Engineer position:..skipped
+Then I should see 'Naam is missing required subfields: First Name' on the page.skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form first name ""...................................skipped
+And user fills out the form last name "Sade"................................skipped
+And user fills out the form e-mail "nemo@sade.nl"...........................skipped
+And user fills out the form Telefoonnummer "+31612345678"...................skipped
+And user send the filled form...............................................skipped
+Then verify that the form is sent...........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC01 Apply for cloud eng position WITH INVALID NAME - /* Naam: First Name is not valid." time="0.025">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+And I am on the 'Cloud Engineer' job application form.......................skipped
+And I want to apply for Cloud Engineer position WITH INVALID NAME - /*......skipped
+When I send following attributes to apply for the Cloud Engineer position:..skipped
+Then I should see 'Naam: First Name is not valid.' on the page..............skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form first name "/*".................................skipped
+And user fills out the form last name "Sade"................................skipped
+And user fills out the form e-mail "nemo@sade.nl"...........................skipped
+And user fills out the form Telefoonnummer "abc"............................skipped
+And user send the filled form...............................................skipped
+Then verify that the form is sent...........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC01 Apply for cloud eng position WITH INVALID NAME - a Naam: First Name is not valid." time="0.009">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+And I am on the 'Cloud Engineer' job application form.......................skipped
+And I want to apply for Cloud Engineer position WITH INVALID NAME - a.......skipped
+When I send following attributes to apply for the Cloud Engineer position:..skipped
+Then I should see 'Naam: First Name is not valid.' on the page..............skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form first name "a"..................................skipped
+And user fills out the form last name "Sade"................................skipped
+And user fills out the form e-mail "nemo@sade.nl"...........................skipped
+And user fills out the form Telefoonnummer "abc"............................skipped
+And user send the filled form...............................................skipped
+Then verify that the form is sent...........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC01 Apply for cloud eng position WITHOUT E-MAIL E-mail is required." time="0.039">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+And I am on the 'Cloud Engineer' job application form.......................skipped
+And I want to apply for Cloud Engineer position WITHOUT E-MAIL..............skipped
+When I send following attributes to apply for the Cloud Engineer position:..skipped
+Then I should see 'E-mail is required.' on the page.........................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form first name "Nemo"...............................skipped
+And user fills out the form last name "Sade"................................skipped
+And user fills out the form e-mail "".......................................skipped
+And user fills out the form Telefoonnummer "abc"............................skipped
+And user send the filled form...............................................skipped
+Then verify that the form is sent...........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC01 Apply for cloud eng position WIT ALL REQUIRED FIELDS Dankjewel voor je sollicitatie!" time="0.062">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+And I am on the 'Cloud Engineer' job application form.......................skipped
+And I want to apply for Cloud Engineer position WIT ALL REQUIRED FIELDS.....skipped
+When I send following attributes to apply for the Cloud Engineer position:..skipped
+Then I should see 'Dankjewel voor je sollicitatie!' on the page.............skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form first name "Nemo"...............................skipped
+And user fills out the form last name "Sade"................................skipped
+And user fills out the form e-mail "nemo@sade.nl"...........................skipped
+And user fills out the form Telefoonnummer "abc"............................skipped
+And user send the filled form...............................................skipped
+Then verify that the form is sent...........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative" time="0.011">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "Nemo"................skipped
+And user fills out the form with not valid last name "".....................skipped
+And user fills out the form with not valid e-mail "nemosade.nl".............skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 2" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name ""....................skipped
+And user fills out the form with not valid last name "Sade".................skipped
+And user fills out the form with not valid e-mail "nemo@.nl"................skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 3" time="0.009">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "/*"..................skipped
+And user fills out the form with not valid last name "Sade".................skipped
+And user fills out the form with not valid e-mail "@sade.nl"................skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 4" time="0.009">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "!"...................skipped
+And user fills out the form with not valid last name "`"....................skipped
+And user fills out the form with not valid e-mail "nemo@sadenl".............skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 5" time="0.019">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "Nemo"................skipped
+And user fills out the form with not valid last name "Sade".................skipped
+And user fills out the form with not valid e-mail "nemo@sade"...............skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 6" time="0.016">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "Nemo"................skipped
+And user fills out the form with not valid last name "Sade".................skipped
+And user fills out the form with not valid e-mail "nemo@sade."..............skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 7" time="0.049">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "Nemo"................skipped
+And user fills out the form with not valid last name "Sade".................skipped
+And user fills out the form with not valid e-mail "n@n@s.nl"................skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 8" time="0.013">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "Nemo"................skipped
+And user fills out the form with not valid last name "Sade".................skipped
+And user fills out the form with not valid e-mail "@nemo@sade.nl"...........skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 9" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "Nemo"................skipped
+And user fills out the form with not valid last name "Sade".................skipped
+And user fills out the form with not valid e-mail "nn@s..nl"................skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US001 Solliciteren bij search4solutions" name="TC02 Verifieren voor sollicitatie form -Negative 10" time="0.01">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on the search4solutions home page................................undefined
+Then user gets the result of the application................................skipped
+And user hover over Werken bij on the menu..................................skipped
+And user choose Cloud Engineer..............................................skipped
+When user click to button Solliciteren......................................skipped
+And user fills out the form with not valid first name "Nemo"................skipped
+And user fills out the form with not valid last name "Sade".................skipped
+And user fills out the form with not valid e-mail "nemo@sade.n".............skipped
+And user fills out the form with not valid Telefoonnummer "+31612345678"....skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
