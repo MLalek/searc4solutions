@@ -18,7 +18,6 @@ public class Hooks {
     @After
     public void tearDown(Scenario scenario){
         if (scenario.isFailed()) {
-            System.out.println("scenario.getName() = " + scenario.getName());
             final byte[] screenshot=(
                     (TakesScreenshot) Driver.getDriver())
                     .getScreenshotAs(OutputType.BYTES);
