@@ -23,16 +23,4 @@ Feature: US001 Apply for a job at search4solutions
       | WITH ALL REQUIRED FIELDS | Dankjewel voor je sollicitatie!                | Nemo      | Sade     | nemo@sade.nl | abc            |
 
 
-#
-#    Examples:form negative scenario
-#      | firstName | lastName | e-mail        | telefoonNummer |
-#      | Nemo      |          | nemosade.nl   | +31612345678   |
-#      |           | Sade     | nemo@.nl      | +31612345678   |
-#      | /*        | Sade     | @sade.nl      | +31612345678   |
-#      | !         | `        | nemo@sadenl   | +31612345678   |
-#      | Nemo      | Sade     | nemo@sade     | +31612345678   |
-#      | Nemo      | Sade     | nemo@sade.    | +31612345678   |
-#      | Nemo      | Sade     | n@n@s.nl      | +31612345678   |
-#      | Nemo      | Sade     | @nemo@sade.nl | +31612345678   |
-#      | Nemo      | Sade     | nn@s..nl      | +31612345678   |
-#      | Nemo      | Sade     | nemo@sade.n   | +31612345678   |
+
